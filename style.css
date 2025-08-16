@@ -39,26 +39,29 @@ nav {
 nav a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    padding: 30px;
+    padding: 10px 30px; 
+    line-height: 40px; 
     text-decoration: none;
     color: rgba(237, 205, 126, 0.884);
     line-height: 9px;
+    border: 1px solid transparent;
 }
 
 
 /* Faz um estilo ao passar o mouse no Menu de Navegação */
-nav :hover {
+nav a:hover {
     background-color: #2c1a13;
     padding: 4.5px;
+    border: 0.5px solid;
 }
 
 
 /* Corpo da página */
 article {
-    max-width: 950px;
+    max-width: 800px;
     margin: 0 auto;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
     margin-top: 5px;
 }
 
@@ -85,25 +88,47 @@ article p {
 }
 
 
-/* Edição das imagens dos pratos */
+/* Edição das imagens dos pratos de churrasco */
 article .churrasco1_brisket {
-    height: 250px;
-    width: 300px;
-    margin-right: 30px;
+    height: 190px;
+    width: 210px;
+    margin-left: 10px;
+    margin-right: 40px;
 }
 
 
-/* Edição das imagens dos pratos */
+/* Edição das imagens dos pratos de churrasco*/
 article .churrasco2_ribs {
-    height: 245px;
-    width: 300px;
-    margin-right: 30px;
+    height: 190px;
+    width: 213px;
+    margin-right: 40px;
 }
 
 
-/* Edição das imagens dos pratos */
+/* Edição das imagens dos pratos de churrasco*/
 article .churrasco3_picanha {
-    height: 250px;
-    width: 275px;
+    height: 189px;
+    width: 210px;
+}
 
+
+/* Edição das imagens dos pratos de hamburguer */
+article .burguer1_salada {
+    height: 193px;
+    width: 215px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+
+/* Edição das imagens dos pratos de hamburguer*/
+article .burguer2_bacon {
+    height: 192px;
+    width: 215px;
+    margin-right: 40px;
+}
+
+article .burguer3_chicken {
+    height: 199px;
+    width: 220px;
 }
