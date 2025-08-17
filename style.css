@@ -64,6 +64,7 @@ nav a:hover {
 }
 
 
+/* Edição do título do main - "Nossa História" */
 main h1 {
     font-family: "Dancing Script", cursive;
     font-weight: bolder;
@@ -74,6 +75,7 @@ main h1 {
 }
 
 
+/* Edição do parágrafo da história do restaurante */
 main p {
     text-align: justify;
     font-size: 20px;
@@ -84,6 +86,7 @@ main p {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 /* Corpo da página */
 article {
@@ -100,12 +103,14 @@ article h1 {
     font-style: normal;
     font-size: 40px;
     color: rgba(237, 205, 126, 0.829);
-    margin-top: 55px;
+    margin-top: 50px;
     margin-bottom: 55px;
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
 }
 
+
+/* Ajuste dos parágrafos dentro do Article */
 article p {
     color: rgba(237, 205, 126, 0.829);
     text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
@@ -114,7 +119,7 @@ article p {
 }
 
 
-/* Edição das imagens dos pratos de churrasco */
+/* Edição das imagens dos pratos de churrasco - Brisket */
 article .churrasco1_brisket {
     height: 190px;
     width: 210px;
@@ -123,7 +128,7 @@ article .churrasco1_brisket {
 }
 
 
-/* Edição das imagens dos pratos de churrasco*/
+/* Edição das imagens dos pratos de churrasco - Ribs */
 article .churrasco2_ribs {
     height: 190px;
     width: 213px;
@@ -131,14 +136,14 @@ article .churrasco2_ribs {
 }
 
 
-/* Edição das imagens dos pratos de churrasco*/
+/* Edição das imagens dos pratos de churrasco - Picanha */
 article .churrasco3_picanha {
     height: 189px;
     width: 210px;
 }
 
 
-/* Edição das imagens dos pratos de hamburguer */
+/* Edição das imagens dos pratos de hamburguer - Salada */
 article .burguer1_salada {
     height: 193px;
     width: 215px;
@@ -147,15 +152,54 @@ article .burguer1_salada {
 }
 
 
-/* Edição das imagens dos pratos de hamburguer*/
+/* Edição das imagens dos pratos de hamburguer - Bacon */
 article .burguer2_bacon {
     height: 192px;
     width: 215px;
     margin-right: 40px;
 }
 
+
+/* Edição das imagens dos pratos de hamburguer - Chicken */
 article .burguer3_chicken {
     height: 192px;
     width: 217px;
 }
 
+
+/* Edição da imagem do chef 1 - Churrasco */
+article .chef1_churrasco {
+    height: 190px;
+    width: 210px;
+    text-align: center;
+}
+
+
+/* Edição da imagem do chef 2 - Hamburguer */
+article .chef2_hamburguer {
+    height: 192px;
+    width: 215px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.biografia_chef1 {
+    text-align: justify;
+    margin-top: 3px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Imagem do detalhe separador das categorias */
+article .separador {
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+}
+
+
+/* Faz uma rolagem suave ao clicar nos links do menu */
+html {
+    scroll-behavior: smooth;
+}
