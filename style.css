@@ -8,10 +8,18 @@
 }
 
 
+
+
+
+
 /* Edição da cor de fundo do site */
 body {
     background-color: #2c1a13;
 }
+
+
+
+
 
 
 /* Edição do cabeçalho */
@@ -23,14 +31,19 @@ header {
 }
 
 
-/* Edição do logotipo do restaurante */
+/* Logotipo do restaurante */
 header img {
     width: 250px;
     height: 250px;
 }
 
 
-/* Edição do Menu de Navegação */
+
+
+
+
+
+/* Menu de Navegação */
 nav {
     text-align: center;
     background-color: rgba(112, 26, 15);
@@ -64,7 +77,12 @@ nav a:hover {
 }
 
 
-/* Edição do título do main - "Nossa História" */
+
+
+
+
+
+/* Título do main - "Nossa História" */
 main h1 {
     font-family: "Dancing Script", cursive;
     font-weight: bolder;
@@ -75,7 +93,7 @@ main h1 {
 }
 
 
-/* Edição do parágrafo da história do restaurante */
+/* Parágrafo da história do restaurante */
 main p {
     text-align: justify;
     font-size: 20px;
@@ -86,6 +104,12 @@ main p {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+
+
+
 
 
 /* Corpo da página */
@@ -119,7 +143,10 @@ article p {
 }
 
 
-/* Edição das imagens dos pratos de churrasco - Brisket */
+
+
+
+/* Churrasco - Brisket - Edição das imagens */
 article .churrasco1_brisket {
     height: 190px;
     width: 210px;
@@ -128,7 +155,7 @@ article .churrasco1_brisket {
 }
 
 
-/* Edição das imagens dos pratos de churrasco - Ribs */
+/* Churrasco - Ribbs - Edição das imagens */
 article .churrasco2_ribs {
     height: 190px;
     width: 213px;
@@ -136,14 +163,19 @@ article .churrasco2_ribs {
 }
 
 
-/* Edição das imagens dos pratos de churrasco - Picanha */
+/* Churrasco - Picanha - Edição das imagens */
 article .churrasco3_picanha {
     height: 189px;
     width: 210px;
 }
 
 
-/* Edição das imagens dos pratos de hamburguer - Salada */
+
+
+
+
+
+/* Hamburguer - Salada - Edição das imagens */
 article .burguer1_salada {
     height: 193px;
     width: 215px;
@@ -152,7 +184,7 @@ article .burguer1_salada {
 }
 
 
-/* Edição das imagens dos pratos de hamburguer - Bacon */
+/* Hamburguer - Bacon - Edição das imagens */
 article .burguer2_bacon {
     height: 192px;
     width: 215px;
@@ -160,30 +192,27 @@ article .burguer2_bacon {
 }
 
 
-/* Edição das imagens dos pratos de hamburguer - Chicken */
+/* Hamburguer - Chicken - Edição das imagens */
 article .burguer3_chicken {
     height: 192px;
     width: 217px;
 }
 
 
-/* Edição da imagem do chef 1 - Churrasco */
+
+
+
+
+
+
+/* Chef 1 - Churrasco - Edição da imagem */
 article .chef1_churrasco {
     height: 190px;
     width: 210px;
     text-align: center;
 }
 
-
-/* Edição da imagem do chef 2 - Hamburguer */
-article .chef2_hamburguer {
-    height: 192px;
-    width: 215px;
-    text-align: center;
-    margin-top: 30px;
-}
-
-
+/* Biografia Chef 1 - Churrasco */
 .biografia_chef1 {
     text-align: justify;
     margin-top: 3px;
@@ -193,6 +222,18 @@ article .chef2_hamburguer {
 }
 
 
+
+
+
+/* Chef 2 - Hamburguer - Edição da imagem */
+article .chef2_hamburguer {
+    height: 192px;
+    width: 215px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Biografia Chef 2 - Hamburguer */
 .biografia_chef2 {
     text-align: justify;
     margin-top: 3px;
@@ -201,12 +242,23 @@ article .chef2_hamburguer {
     margin-right: auto;    
 }
 
-/* Imagem do detalhe separador das categorias */
+
+
+
+
+
+
+/* Separador de Categorias */
 article .separador {
     text-align: center;
     height: 100px;
     margin-top: 50px;
 }
+
+
+
+
+
 
 
 /* Faz uma rolagem suave ao clicar nos links do menu */
