@@ -7,9 +7,10 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <style>
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 </style>
 </head>
+
 <body>
 
 
@@ -59,7 +60,21 @@
 
 
 
+
+
+
+
+
     <article>
+
+
+            <!-- Separador visual -->
+            <img src="imagens/separador.png" alt="separador" class="separador">
+
+
+
+
+
         <!-- Seção que está declarando o cardápio de churrasco -->
         <section id="Churrascos">
             <h1>
@@ -133,12 +148,51 @@
 
             <!-- Seção de reservas do restaurante -->
             <section id="Reservas">
-                <h1>
-                    Faça Sua Reserva
-                </h1>
-                <input type="date">
-                <input type="time">
+                <form action="#" method="post">
+                    <h1>
+                        Faça Sua Reserva
+                    </h1>
+                    
+                    <label class="formulario" for="nome">Digite seu nome completo</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <br>
+                    <br>
+                    <label class="formulario" for="data">Escolha a data para a reserva: </label>
+                    <input type="date">
+                    <br>
+                    <br>
+                    <label class="formulario" for="horario">Escolha o horário da reserva: </label>
+                    <input type="time">
+                    <br>
+                    <br>
+                    <label class="formulario" for="pessoas">Número de pessoas: </label>
+                    <input type="number" id="pessoas" name="pessoas" min="1" max="20" required>
+                    <br>
+                    <br>
+                    <button type="submit">Reservar</button>
+                </form>
             </section>
+
+
+
+
+            <!-- Separador visual -->
+            <img src="imagens/separador.png" alt="separador" class="separador">
+
+
+
+        <h1>
+            Fale Conosco
+        </h1>
+        <p class="faleConosco">Tel: (13) 9 9999-9999</p>
+        <p class="faleConosco">Cel: (13) 8 8888-8888</p>
+        <p class="faleConosco">Localização: Avenida Costa e Silva, n° 123 - Boqueirão - Praia Grande</p>
+
+
+
+
+        <!-- Separador visual -->
+        <img src="imagens/separador.png" alt="separador" class="separador">
     </article>
 </body>
 </html>
