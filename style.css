@@ -148,8 +148,8 @@ article p {
 
 /* Churrasco - Brisket - Edição das imagens */
 article .churrasco1_brisket {
-    height: 190px;
-    width: 210px;
+    max-width: 800px;
+    height: auto;
     margin-left: 10px;
     margin-right: 40px;
 }
@@ -273,8 +273,30 @@ html {
 
 
 .formulario {
-    color: rgba(237, 205, 126, 0.829);
+    display: flex;
+    max-width: 800px;
+    margin-left: 260px;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: bolder;
+    text-align: left;
+    color: rgba(237, 205, 126, 0.829)
 }
+
+.campoDigito {
+    max-width: 800px;
+    margin-right: 500px;
+}
+
+.botao {
+    margin-right: 700px;
+}
+
+
+
+
+
+
 
 
 
