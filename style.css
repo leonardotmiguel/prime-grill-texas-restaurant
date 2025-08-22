@@ -148,7 +148,7 @@ article p {
 
 /* Churrasco - Brisket - Edição das imagens */
 article .churrasco1_brisket {
-  width: 20%;        /* ocupa só o espaço disponível */
+  width: 60%;        /* ocupa só o espaço disponível */
   height: auto;       /* mantém a proporção */
   max-width: 100%;    /* nunca passa da largura do container */
   display: block;
