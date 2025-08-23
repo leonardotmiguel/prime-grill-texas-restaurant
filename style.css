@@ -30,9 +30,9 @@ header {
     align-items: center;
 }
 
-
 /* Logotipo do restaurante */
 header img {
+    margin: auto;
     width: 250px;
     height: 250px;
 }
@@ -47,8 +47,9 @@ header img {
 nav {
     text-align: center;
     background-color: rgba(112, 26, 15);
-    max-width: 800px;
-    margin: 10px auto;
+    min-width: 100px;
+    max-width: 600px;
+    margin: auto;
     padding: 0px;
     border: 1px solid rgba(237, 205, 126, 0.829);
     border-radius: 27px;
@@ -83,7 +84,7 @@ main {
     min-width: 100px;
     max-width: 800px;
     margin: auto;
-    background-color: rgb(39, 8, 8);
+    background-color: rgba(39, 8, 8, 0.644);
 }
 
 
