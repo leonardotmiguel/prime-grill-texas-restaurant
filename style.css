@@ -78,6 +78,15 @@ nav a:hover {
 
 
 
+main {
+    padding: 20px;
+    min-width: 100px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(39, 8, 8);
+}
+
+
 
 
 
@@ -146,13 +155,14 @@ article p {
 
 
 
-/* Churrasco - Brisket - Edição das imagens */
-article .churrasco1_brisket {
+/* Carne - Brisket - Edição das imagens */
+article .carne1_brisket {
   width: 40%;        /* ocupa só o espaço disponível */
   height: auto;       /* mantém a proporção */
   max-width: 100%;    /* nunca passa da largura do container */
   display: block;
   margin: 0 auto;
+  border-radius: 30%;
 }
 
 
