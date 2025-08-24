@@ -16,7 +16,7 @@
 
 
 
-    <!-- Imagem do logotipo do restaurante -->
+        <!-- Imagem do logotipo do restaurante -->
     <header>
         <img src="imagens/logotipo.png" alt="Logotipo">
     </header>
@@ -25,7 +25,7 @@
 
 
 
-    <!-- Menu de Navegação do site -->
+        <!-- Menu de Navegação do site -->
     <nav>
         <a href="#Home">HOME</a>
         <a href="#Churrascos">CHURRASCOS</a>
@@ -47,23 +47,25 @@
                 Nossa História.
             </h1>
 
-            <p>
+            <p id="historia-do-restaurante">
                 No coração do Texas, onde o pôr do sol pinta o céu com tons dourados e o aroma de carne assada se mistura ao vento quente, nasceu o Prime Grill – Texas Restaurant. Fundado por uma família apaixonada pela tradição do churrasco texano, nosso restaurante nasceu com um único propósito: transformar cada refeição em uma experiência memorável.
             </p>
-            <p>
+            <p id="historia-do-restaurante">
                 Inspirados nas antigas fazendas texanas, unimos o sabor autêntico das grelhas à brasa com a sofisticação de um ambiente luxuoso. Aqui, cada detalhe foi pensado para homenagear as raízes do Texas — desde a escolha dos cortes mais nobres até a seleção dos temperos que passam de geração em geração.
             </p>
-            <p>
+            <p id="historia-do-restaurante">
                 No Prime Grill, acreditamos que comer é mais do que alimentar-se: é compartilhar momentos, criar memórias e celebrar a vida. Seja para um jantar especial, uma reunião de negócios ou uma comemoração entre amigos, nosso compromisso é oferecer excelência em sabor, serviço e hospitalidade.
             </p>
-            <p>
+            <p id="historia-do-restaurante">
                 Do calor das brasas ao requinte à mesa, o Prime Grill – Texas Restaurant é o lugar onde o Texas encontra a elegância, e onde cada cliente é recebido como parte da família.
             </p>
         </section>
 
 
-
-
+            <!-- Separador visual das seções -->
+        <picture>
+            <img src="imagens/separador.png" alt="Separador" class="separador">
+        </picture>
 
 
 
@@ -77,31 +79,49 @@
             </h2>
 
             <picture>
-                <source srcset="imagens/carne1-brisket-P-400x250.webp" media="(max-width: 400px)">
-                <source srcset="imagens/carne1-brisket-M-720x400.webp" media="(max-width: 720px)">
-                <img src="imagens/carne1-brisket-G-1400x790.webp" alt="Brisket" class="carne1_brisket">
-                
+                <source srcset="imagens/carne1-P-400x250.webp" media="(max-width: 400px)">
+                <source srcset="imagens/carne1-M-720x400.webp" media="(max-width: 720px)">
+                <img src="imagens/carne1-G-1400x790.webp" alt="Brisket" class="carnes">        
             </picture>
+
+            <picture>
+                <source srcset="imagens/carne2-P-400x250.webp" media="(max-width: 400px)">
+                <source srcset="imagens/carne2-M-720x400.webp" media="(max-width: 720px)">
+                <img src="imagens/carne2-G-1400x790.webp" alt="T-bone" class="carnes">
+            </picture>
+
+            <picture>
+                <source srcset="imagens/carne3-P-400x250.webp" media="(max-width: 400px)">
+                <source srcset="imagens/carne3-M-720x400.webp" media="(max-width: 720px)">
+                <img src="imagens/carne3-G-1400x790.webp" alt="Picanha" class="carnes">
+            </picture>
+
+            <picture>
+                <source srcset="imagens/carne4-P-400x250.webp" media="(max-width: 400px)">
+                <source srcset="imagens/carne4-M-720x400.webp" media="(max-width: 720px)">
+                <img src="imagens/carne4-G-1400x790.webp" alt="Costelas" class="carnes">
+            </picture>
+
         </section>
 
 
-            <picture><img src="imagens/separador.png" alt="separador"></picture>
 
 
 
 
-
+            <!-- Separador visual das seções -->
+        <picture>
+            <img src="imagens/separador.png" alt="Separador" class="separador">
+        </picture>
 
 
 
 
             <!-- Seção que está declarando o cardápio de hamburguer -->
         <section id="Burguers">
-            <h1>
+            <h1 class="titulos-cardapios">
                 Linha de Burguer's
             </h1>
-
-
 
         </section>
 
@@ -109,18 +129,25 @@
 
 
 
+            <!-- Separador visual das seções -->
+        <picture>
+            <img src="imagens/separador.png" alt="Separador" class="separador">
+        </picture>
 
 
 
 
-                <!-- Foto e biografia dos chef's -->
+
+            <!-- Foto e biografia dos chef's -->
         <section id="Chefs">
-            <h1>
+            <h1 class="titulos-cardapios">
                 Chef's
             </h1>
 
-            <img src="imagens/chef_churrasco.png" alt="Chef Churrasco" class="chef1_churrasco">
-            <p class="biografia_chef1">
+            <picture>
+                <img src="imagens/chef_churrasco.png" alt="Chef Churrasco" class="chef1_churrasco">
+            </picture>
+            <p class="biografia_chef">
                 Chef Richard Hayes <br>
                 Richard Hayes, conhecido mundialmente como Smokey, é mestre das brasas e da defumação. Com mais de 20 anos de experiência, já comandou churrascos em festivais internacionais, unindo técnicas tradicionais sul-americanas ao estilo texano de fogo lento. Reconhecido por sua habilidade em transformar cortes simples em verdadeiras obras-primas gastronômicas, Hayes é um chef que valoriza a autenticidade do sabor e o respeito pelo fogo, elevando o churrasco a um patamar de alta gastronomia.
             </p>
@@ -129,8 +156,10 @@
 
 
 
-            <img src="imagens/chef_hamburguer.png" alt="Chef Hamburguer" class="chef2_hamburguer">
-            <p class="biografia_chef2">
+            <picture>
+                <img src="imagens/chef_hamburguer.png" alt="Chef Hamburguer" class="chef2_hamburguer">
+            </picture>
+            <p class="biografia_chef">
                 Chef Willian Turner <br>
                 William Turner, apelidado de Billy Burgers, é um chef renomado por reinventar o clássico hambúrguer. Com formação em gastronomia internacional e passagem por restaurantes premiados em Nova York e Londres, Turner se tornou referência na criação de blends exclusivos e combinações ousadas de sabores. Sua filosofia é simples: o hambúrguer pode ser tão sofisticado quanto qualquer prato gourmet, sem perder sua essência de comida reconfortante. Hoje, é considerado um dos maiores nomes quando o assunto é hambúrguer artesanal de excelência.
             </p>
@@ -140,13 +169,46 @@
 
 
 
+            <!-- Separador visual das seções -->
+        <picture>
+            <img src="imagens/separador.png" alt="Separador" class="separador">
+        </picture>
 
 
 
 
 
 
+        <section id="Reservas">
+            <h1 class="titulos-cardapios">
+                Faça Sua Reserva
+            </h1>
 
+                    <!-- Seção de reservas do restaurante -->
+                <form action="#" method="post" class="formulario">
+
+                    <label for="nome">Digite seu nome completo: </label>
+                    <input class="campoDigito" type="text" id="nome" name="nome" required>
+
+                    <label for="telefone">Digite seu número de contato: </label>
+                    <input class="campoDigito" type="tel" id="telefone" name="telefone" required>
+
+                    <label for="data">Escolha a data para a reserva: </label>
+                    <input class="campoDigito" type="date" id="data" name="data" required>
+
+                    <label for="horario">Escolha o horário da reserva: </label>
+                    <input class="campoDigito" type="time" id="horario" name="horario" required>
+
+                    <label for="pessoas">Número de pessoas: </label>
+                    <input class="campoDigito" type="number" id="pessoas" name="pessoas" min="1" max="20" required>
+
+                    <button class="botao" type="submit">Reservar</button>
+                </form>
+
+
+
+
+        </section>
 
 
 
@@ -176,37 +238,10 @@
 
 
 
-            <!-- Separador visual -->
-            <img src="imagens/separador.png" alt="Separador" class="separador">
 
 
 
-                <h1 class="facaSuaReserva">
-                    Faça Sua Reserva
-                </h1>
-
-            <!-- Seção de reservas do restaurante -->
-            <section>
-                <form action="#" method="post" class="formulario">
-
-                    <label for="nome">Digite seu nome completo: </label>
-                    <input class="campoDigito" type="text" id="nome" name="nome" required>
-
-                    <label for="telefone">Digite seu número de contato: </label>
-                    <input class="campoDigito" type="tel">
-
-                    <label for="data">Escolha a data para a reserva: </label>
-                    <input class="campoDigito" type="date">
-
-                    <label for="horario">Escolha o horário da reserva: </label>
-                    <input class="campoDigito" type="time">
-
-                    <label for="pessoas">Número de pessoas: </label>
-                    <input class="campoDigito" type="number" id="pessoas" name="pessoas" min="1" max="20" required>
-
-                    <button class="botao" type="submit">Reservar</button>
-                </form>
-            </section>
+            
 
 
 

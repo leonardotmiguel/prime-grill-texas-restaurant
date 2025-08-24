@@ -32,10 +32,8 @@ body {
 
 /* Edição do cabeçalho */
 header {
-    text-align: center;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: auto;
 }
 
 /* Logotipo do restaurante */
@@ -61,9 +59,8 @@ nav {
     min-width: 100px;
     max-width: 800px;
     margin: auto;
-    padding: 0px;
     border: 1px solid rgba(237, 205, 126, 0.829);
-    border-radius: 27px;
+    border-radius: 20px;
 }
 
 /* Edição dos links do Menu de Navegação */
@@ -76,7 +73,7 @@ nav a {
     border: 0.1px solid transparent;
     transition: all 0.3s ease;
     display: inline-block;
-    line-height: normal;
+
 }
 
 /* Faz um estilo ao passar o mouse no Menu de Navegação */
@@ -94,7 +91,7 @@ nav a:hover {
 
 
 
-
+/* Ajuste de onde está o conteúdo principal da página */
 main {
     padding: 20px;
     min-width: 100px;
@@ -115,7 +112,7 @@ main {
 }
 
 /* Parágrafo da história do restaurante */
-main p {
+#historia-do-restaurante {
     text-align: justify;
     font-size: 20px;
     color: rgba(237, 205, 126, 0.829);
@@ -128,17 +125,31 @@ main p {
 
 
 
+
+
+
+
+
+
+/* Ajuste dos títulos h2*/
 .titulos-cardapios {
     font-family: "Dancing Script", cursive;
     font-weight: bolder;
     font-size: 40px;
     text-align: center;
     color: rgba(237, 205, 126, 0.829);
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 
-.carne1_brisket {
+
+
+
+/* Imagens das carnes do cardápio */
+.carnes {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
     min-width: 100px;
     max-width: 500px;
     border: 3px solid rgba(237, 205, 126, 0.829);
@@ -154,79 +165,6 @@ main p {
 
 
 
-/* Edição dos títulos do site (Linha de Churrascos e etc) */
-article h1 {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: normal;
-    font-size: 40px;
-    color: rgba(237, 205, 126, 0.829);
-    margin-top: 10px;
-    margin-bottom: 55px;
-    text-align: center;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
-}
-
-
-/* Ajuste dos parágrafos dentro do Article */
-article p {
-    color: rgba(237, 205, 126, 0.829);
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
-    font-size: 18px;
-    text-align: justify;
-}
-
-
-
-
-
-/* Carne - Brisket - Edição das imagens */
-article 
-
-
-/* Churrasco - Ribbs - Edição das imagens */
-article .churrasco2_ribs {
-    height: 190px;
-    width: 213px;
-    margin-right: 40px;
-}
-
-
-/* Churrasco - Picanha - Edição das imagens */
-article .churrasco3_picanha {
-    height: 189px;
-    width: 210px;
-}
-
-
-
-
-
-
-
-/* Hamburguer - Salada - Edição das imagens */
-article .burguer1_salada {
-    height: 193px;
-    width: 215px;
-    margin-left: 10px;
-    margin-right: 40px;
-}
-
-
-/* Hamburguer - Bacon - Edição das imagens */
-article .burguer2_bacon {
-    height: 192px;
-    width: 215px;
-    margin-right: 40px;
-}
-
-
-/* Hamburguer - Chicken - Edição das imagens */
-article .burguer3_chicken {
-    height: 192px;
-    width: 217px;
-}
 
 
 
@@ -235,42 +173,20 @@ article .burguer3_chicken {
 
 
 
-/* Chef 1 - Churrasco - Edição da imagem */
-article .chef1_churrasco {
-    height: 190px;
-    width: 210px;
-    text-align: center;
-}
+
 
 /* Biografia Chef 1 - Churrasco */
-.biografia_chef1 {
+.biografia_chef {
     text-align: justify;
+    color: rgba(237, 205, 126, 0.829);
+    margin: auto;
     margin-top: 3px;
+    min-width: 100px;
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
 
-
-
-/* Chef 2 - Hamburguer - Edição da imagem */
-article .chef2_hamburguer {
-    height: 192px;
-    width: 215px;
-    text-align: center;
-    margin-top: 30px;
-}
-
-/* Biografia Chef 2 - Hamburguer */
-.biografia_chef2 {
-    text-align: justify;
-    margin-top: 3px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;    
-}
 
 
 
@@ -279,8 +195,9 @@ article .chef2_hamburguer {
 
 
 /* Separador de Categorias */
-article .separador {
-    text-align: center;
+.separador {
+    display: flex;
+    margin: auto;
     height: 100px;
     margin-top: 20px;
 }
@@ -304,22 +221,25 @@ html {
 
 .formulario {
     display: flex;
-    max-width: 800px;
-    margin-left: 260px;
     flex-direction: column;
     gap: 5px;
     font-weight: bolder;
-    text-align: left;
-    color: rgba(237, 205, 126, 0.829)
+    color: rgba(237, 205, 126, 0.829);
 }
 
 .campoDigito {
-    max-width: 800px;
-    margin-right: 500px;
+    min-width: 100px;
+    max-width: 400px;
+
 }
 
 .botao {
-    margin-right: 700px;
+    background-color: rgba(112, 26, 15);
+    color: rgba(237, 205, 126, 0.829);
+    border: 1px solid rgba(237, 205, 126, 0.829);
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 10px;
 }
 
 
