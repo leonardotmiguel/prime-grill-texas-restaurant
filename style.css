@@ -12,10 +12,18 @@
 
 
 
+
+
+
+
 /* Edição da cor de fundo do site */
 body {
     background-color: #2c1a13;
 }
+
+
+
+
 
 
 
@@ -43,18 +51,20 @@ header img {
 
 
 
+
+
+
 /* Menu de Navegação */
 nav {
     text-align: center;
     background-color: rgba(112, 26, 15);
     min-width: 100px;
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     padding: 0px;
     border: 1px solid rgba(237, 205, 126, 0.829);
     border-radius: 27px;
 }
-
 
 /* Edição dos links do Menu de Navegação */
 nav a {
@@ -69,7 +79,6 @@ nav a {
     line-height: normal;
 }
 
-
 /* Faz um estilo ao passar o mouse no Menu de Navegação */
 nav a:hover {
     background-color: #2c1a13;
@@ -79,54 +88,70 @@ nav a:hover {
 
 
 
+
+
+
+
+
+
+
 main {
     padding: 20px;
     min-width: 100px;
     max-width: 800px;
     margin: auto;
+    margin-top: 10px;
     background-color: rgba(39, 8, 8, 0.644);
 }
 
-
-
-
-
-
 /* Título do main - "Nossa História" */
-main h1 {
+.titulo-historia-restaurante {
     font-family: "Dancing Script", cursive;
     font-weight: bolder;
     font-size: 40px;
     text-align: center;
     color: rgba(237, 205, 126, 0.829);
-    margin-top: 55px;
+    margin-top: 5px;
 }
-
 
 /* Parágrafo da história do restaurante */
 main p {
     text-align: justify;
     font-size: 20px;
     color: rgba(237, 205, 126, 0.829);
+    min-width: 100px;
     max-width: 800px;
-    margin: 10px;
+    margin: 5px;
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
 
 
-
-
-
-
-/* Corpo da página */
-article {
+.titulos-cardapios {
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+    font-size: 40px;
     text-align: center;
-    margin-top: 5px;
+    color: rgba(237, 205, 126, 0.829);
+    margin-top: 20px;
 }
+
+
+.carne1_brisket {
+    min-width: 100px;
+    max-width: 500px;
+    border: 3px solid rgba(237, 205, 126, 0.829);
+}
+
+
+
+
+
+
+
+
+
 
 
 /* Edição dos títulos do site (Linha de Churrascos e etc) */
@@ -157,14 +182,7 @@ article p {
 
 
 /* Carne - Brisket - Edição das imagens */
-article .carne1_brisket {
-  width: 40%;        /* ocupa só o espaço disponível */
-  height: auto;       /* mantém a proporção */
-  max-width: 100%;    /* nunca passa da largura do container */
-  display: block;
-  margin: 0 auto;
-  border-radius: 30%;
-}
+article 
 
 
 /* Churrasco - Ribbs - Edição das imagens */
