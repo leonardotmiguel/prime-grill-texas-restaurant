@@ -193,11 +193,12 @@ main {
 
 /* Edição imagem dos Chef's */
 .imagem-chef {
-    display: flex;
-    margin: auto;
+    display: block;
+    margin: 20px auto;
     margin-top: 5px;
-    min-width: 100px;
+    width: 100%;
     max-width: 500px;
+    height: auto;
     border: 3px solid rgba(237, 205, 126, 0.829);
 }
 
