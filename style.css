@@ -131,7 +131,7 @@ main {
 
 
 
-/* Ajuste dos títulos h2*/
+/* Ajuste dos títulos h1 */
 .titulos-cardapios {
     font-family: "Dancing Script", cursive;
     font-weight: bolder;
@@ -172,19 +172,33 @@ main {
 
 
 
-
-
+/* Nome dos Chef's em h3 */
+.nome-chef {
+    text-align: center;
+    color: rgba(237, 205, 126, 0.829);
+    margin-top: 20px;
+}
 
 /* Biografia Chef 1 - Churrasco */
 .biografia_chef {
     text-align: justify;
     color: rgba(237, 205, 126, 0.829);
     margin: auto;
-    margin-top: 3px;
+    margin-top: 15px;
     min-width: 100px;
     max-width: 800px;
 }
 
+
+/* Edição imagem dos Chef's */
+.imagem-chef {
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    min-width: 100px;
+    max-width: 500px;
+    border: 3px solid rgba(237, 205, 126, 0.829);
+}
 
 
 
@@ -218,7 +232,7 @@ html {
 
 
 
-
+/* Nome dos campos para reserva */
 .formulario {
     display: flex;
     flex-direction: column;
@@ -227,16 +241,21 @@ html {
     color: rgba(237, 205, 126, 0.829);
 }
 
+
+/* Tamanho do campo onde será digitado as informações para reserva */
 .campoDigito {
     min-width: 100px;
     max-width: 400px;
 
 }
 
+
+/* Botão para realizar a reserva */
 .botao {
     background-color: rgba(112, 26, 15);
     color: rgba(237, 205, 126, 0.829);
     border: 1px solid rgba(237, 205, 126, 0.829);
+    border-radius: 10px;
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 10px;
@@ -250,11 +269,16 @@ html {
 
 
 
-
+/* Seção onde está sendo editado os contatos e mídias sociais do restaurente h1 */
 .faleConosco {
     text-align: justify;
     margin-top: 3px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.imagem-contatos {
+    width: 25px;
+    margin-top: 3px;
 }
