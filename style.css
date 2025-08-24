@@ -157,6 +157,16 @@ main {
 }
 
 
+.hamburguer {
+    display: block;
+    margin: 20px auto;
+    margin-top: 20px;
+    width: 100%;;
+    max-width: 500px;
+    height: auto;
+    border: 3px solid rgba(237, 205, 126, 0.829);
+}
+
 
 
 
@@ -214,10 +224,8 @@ main {
 .separador {
     display: block;
     margin: 20px auto;
-    max-width: 90%;
     height: 100px;
     margin-top: 20px;
-    overflow: hidden;
 }
 
 
