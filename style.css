@@ -212,12 +212,12 @@ main {
 
 /* Separador de Categorias */
 .separador {
-    display: flex;
+    display: block;
     margin: 20px auto;
-    width: 100%;
-    max-width: 500px;
+    max-width: 90%;
     height: 100px;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 
