@@ -213,7 +213,9 @@ main {
 /* Separador de Categorias */
 .separador {
     display: flex;
-    margin: auto;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
     height: 100px;
     margin-top: 20px;
 }
