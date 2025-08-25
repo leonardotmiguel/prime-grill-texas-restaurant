@@ -89,7 +89,7 @@ nav a:hover {
 
 
 /* Responsividade: telas pequenas (celulares) */
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     nav {
         max-width: 100%; /* agora sim ocupa toda a tela */
         border-radius: 0; /* opcional, pra não ficar arredondado no celular */
