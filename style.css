@@ -56,11 +56,13 @@ header img {
 nav {
     text-align: center;
     background-color: rgba(112, 26, 15);
-    min-width: 100px;
-    max-width: 800px;
+    width: 100%; /* ocupa toda a largura da tela */
+    max-width: 100%; /* não deixa passar do limite da tela*/
+    box-sizing: border-box;
     margin: auto;
     border: 1px solid rgba(237, 205, 126, 0.829);
     border-radius: 8px;
+    overflow-x: auto; /* cria rolagem horizontal se precisar */
 }
 
 /* Edição dos links do Menu de Navegação */
@@ -104,11 +106,15 @@ main {
     border-radius: 10px;
 }
 
-/* Título do main - "Nossa História" */
+
+
+
+
+/* Título do main - "Nossa História" em h1 */
 .titulo-historia-restaurante {
     font-family: "Dancing Script", cursive;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     color: rgba(237, 205, 126, 0.829);
     margin-top: 15px;
@@ -118,7 +124,7 @@ main {
 }
 
 /* Parágrafo da história do restaurante */
-#historia-do-restaurante {
+.descricao-historia-do-restaurante {
     text-align: justify;
     font-size: 20px;
     color: rgba(237, 205, 126, 0.829);
@@ -137,7 +143,7 @@ main {
 
 
 
-/* Ajuste dos títulos h1 */
+/* Ajuste dos títulos h2 */
 .titulos-cardapios {
     font-family: "Dancing Script", cursive;
     color: rgba(237, 205, 126, 0.829);
