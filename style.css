@@ -112,9 +112,9 @@ main {
     text-align: center;
     color: rgba(237, 205, 126, 0.829);
     margin-top: 15px;
-    background-color: rgba(112, 26, 15);
+    /*background-color: rgba(112, 26, 15);
     border-radius: 20px 0 20px 0;
-    border: 1px solid rgba(237, 205, 126, 0.829);
+    border: 1px solid rgba(237, 205, 126, 0.829);*/
 }
 
 /* Parágrafo da história do restaurante */
@@ -141,9 +141,9 @@ main {
 .titulos-cardapios {
     font-family: "Dancing Script", cursive;
     color: rgba(237, 205, 126, 0.829);
-    background-color: rgba(112, 26, 15);
-    border-radius: 20px 0 20px 0;
-    border: 1px solid rgba(237, 205, 126, 0.829);
+    /*background-color: rgba(112, 26, 15)*/
+    /*border-radius: 20px 0 20px 0;*/
+    /*border: 1px solid rgba(237, 205, 126, 0.829);*/
     font-weight: bolder;
     font-size: 40px;
     text-align: center;
@@ -175,19 +175,20 @@ main {
     display: block;
     margin-top: 6px;
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     height: auto;
+    border-radius: 50%;
     border: 3px solid rgba(237, 205, 126, 0.829);
 }
 
 /* Imagens do hamburguers do cardápio */
 .hamburguer {
     display: block;
-    margin: 20px auto;
-    margin-top: 20px;
-    width: 100%;;
-    max-width: 500px;
+    margin-top: 6px;
+    width: 100%;
+    max-width: 300px;
     height: auto;
+    border-radius: 50%;
     border: 3px solid rgba(237, 205, 126, 0.829);
 }
 
@@ -224,8 +225,9 @@ main {
     margin: 20px auto;
     margin-top: 5px;
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
     height: auto;
+    border-radius: 50%;
     border: 3px solid rgba(237, 205, 126, 0.829);
 }
 
