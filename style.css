@@ -57,7 +57,7 @@ nav {
     text-align: center;
     background-color: rgba(112, 26, 15);
     width: 100%; /* ocupa toda a largura da tela */
-    max-width: 100%; /* não deixa passar do limite da tela*/
+    max-width: 800px; /* não deixa passar do limite da tela*/
     box-sizing: border-box;
     margin: auto;
     border: 1px solid rgba(237, 205, 126, 0.829);
@@ -69,7 +69,7 @@ nav {
 nav a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    padding: 5px 22px; 
+    padding: 5px 12px; 
     text-decoration: none;
     color: rgba(237, 205, 126, 0.884);
     border: 0.1px solid transparent;
@@ -84,6 +84,31 @@ nav a:hover {
     border: 0.1px solid;
     border-color: rgba(237, 205, 126, 0.884);
 }
+
+
+
+
+/* Responsividade: telas pequenas (celulares) */
+@media (max-width: 600px) {
+    nav {
+        max-width: 100%; /* agora sim ocupa toda a tela */
+        border-radius: 0; /* opcional, pra não ficar arredondado no celular */
+    }
+
+    nav a {
+        padding: 8px 10px; /* menos espaço lateral */
+        font-size: 14px;   /* letras menores */
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
