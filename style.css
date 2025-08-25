@@ -88,18 +88,8 @@ nav a:hover {
 
 
 
-/* Responsividade: telas pequenas (celulares) */
-@media (max-width: 400px) {
-    nav {
-        max-width: 100%; /* agora sim ocupa toda a tela */
-        border-radius: 0; /* opcional, pra não ficar arredondado no celular */
-    }
 
-    nav a {
-        padding: 8px 10px; /* menos espaço lateral */
-        font-size: 14px;   /* letras menores */
-    }
-}
+
 
 
 
@@ -189,41 +179,42 @@ main {
 
 /* Edição dos nomes dos pratos em h3 */
 .nome-pratos {
-    text-align: center;
+    text-align: left;
     color: rgba(237, 205, 126, 0.829);
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 /* Edição da descrição dos pratos */
 .descricao-dos-pratos {
     color: rgba(237, 205, 126, 0.829);
-    margin-top: 3px;
-    margin-bottom: 20px;
+ 
 }
 
-/* Imagens das carnes do cardápio */
-.carnes {
-    display: block;
-    margin-top: 6px;
-    width: 100%;
-    max-width: 300px;
+
+
+
+
+/* Container de cada prato */
+.container-prato {
+    display: flex;
+    align-items: center; /* centraliza verticalmente */
+    gap: 10px; /* espaço entre a foto e o texto */
+    margin: 30px 0;
+}
+
+/* Imagem dos pratos do cardápio */
+.container-prato img {
+    width: 200px;
     height: auto;
     border-radius: 50%;
     border: 3px solid rgba(237, 205, 126, 0.829);
-    margin: 20px auto;
+    margin-top: 30px;
 }
 
-/* Imagens do hamburguers do cardápio */
-.hamburguer {
-    display: block;
-    margin-top: 6px;
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 50%;
-    border: 3px solid rgba(237, 205, 126, 0.829);
-    margin: 20px auto;
-}
+
+
+
+
 
 
 
