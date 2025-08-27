@@ -63,6 +63,8 @@ nav {
     border: 1px solid rgba(237, 205, 126, 0.829);
     border-radius: 8px;
     overflow-x: auto; /* cria rolagem horizontal se precisar */
+    /*position: sticky;
+    top: 0; deixa o menu etático, ele se movimenta junto da página */ 
 }
 
 /* Edição dos links do Menu de Navegação */
@@ -75,7 +77,6 @@ nav a {
     border: 0.1px solid transparent;
     transition: all 0.3s ease;
     display: inline-block;
-
 }
 
 /* Faz um estilo ao passar o mouse no Menu de Navegação */
@@ -139,6 +140,7 @@ main {
     border: 1px solid rgba(237, 205, 126, 0.829);*/
 }
 
+
 /* Parágrafo da história do restaurante */
 .descricao-historia-do-restaurante {
     text-align: justify;
@@ -149,11 +151,6 @@ main {
     margin: 5px;
     margin-top: 20px;
 }
-
-
-
-
-
 
 
 
