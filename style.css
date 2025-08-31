@@ -34,21 +34,21 @@ body {
 
 /* Edição do cabeçalho */
 header {
-    margin: 1px;
-    max-width: 99%;
+    display: flex;
+    max-width: 100%;
     /*border: 5px solid yellow;*/
     justify-content: space-between;
     align-items: center;
-    /*background-color: rgba(112, 26, 15);*/
-    display: flex;
+    background-color: rgba(112, 26, 15);
+    border-bottom: 1px solid rgb(243, 216, 149);
     /*border-bottom: 2px solid rgba(237, 205, 126, 0.884);*/
 }
 
 /* Logotipo do restaurante */
 header img {
     margin: 20px;
-    width: 180px;
-    height: 110px;
+    width: 130px;
+    height: 100px;
 }
 
 
@@ -72,7 +72,7 @@ nav a {
     padding: 5px 12px;
     text-decoration: none;
 
-    color: rgba(237, 205, 126, 0.884);
+    color: rgb(243, 216, 149);
     border: 0.1px solid transparent;
     transition: all 0.3s ease;
     display: inline-block;
@@ -88,8 +88,9 @@ nav a:hover {
 
 .redes-sociais {
     display: flex;
+    margin-right: 20px;
     align-items: center;
-    gap: 20px;
+    gap: 17px;
 }
 
 /* Edição da imagem dos contatos */
@@ -105,26 +106,6 @@ nav a:hover {
 
 
 
-.conteudo-principal {
-    display: flex;
-}
-
-
-
-
-
-
-.fundo-tabua-de-carne {
-    background-image: url(imagens/fundo2.webp);
-    /*border: 5px solid yellow;*/
-    background-size: contain;
-    margin: 95px;
-    /*left: 0;
-    top: 0;*/
-    width: 42%; /* ocupa 40% da tela */
-    height: 100vh; /* ocupa altura toda da página */
-    object-fit: contain;
-}
 
 
 
@@ -134,26 +115,60 @@ nav a:hover {
 
 
 
-/* Ajuste de onde está o conteúdo principal da página 
+
+
+/* Ajuste de onde está o conteúdo principal da página */
 main {
     display: flexbox;
-    margin-left: 40%;  cria espaço para a imagem fixa 
-    padding: 10px;
-    width: 55%;
-    margin-top: 20px;
-    background-color: #2c1a13;
-    border: 1px solid rgba(237, 205, 126, 0.829);
-    border-radius: 10px;
-} */
+    /*border-radius: 2px solid yellow;*/
+}
+
+.container-banner {
+    display: flex; /* ativa flexbox */
+    align-items: center; /* alinha ao centro verticalmente */
+    justify-content: space-between; /* espaço entre imagem e texto */
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px;
+    gap: 2px; /* espaço entre imagem e frase */
+    /*border: 2px solid yellow;*/
+}
+
+.imagem-banner img {
+    max-width: 800px; /* controla largura da imagem */
+    height: 650px;
+    /*border: 2px solid yellow;*/
+}
+
+.frase-banner {
+    max-width: 600px;
+    color: rgb(243, 216, 149);
+
+    border: 2px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* sombra escura */
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 90px;
+}
+
+.frase-banner h1 {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 7rem;
+    /*border: 2px solid yellow;*/
+}
 
 
+
+
+/*
 .container-historia-restaurante {
     display: flex;
     margin-left: 10px;
     width: 800px;
     padding: 50px 100px;
-    /*border: 2px solid yellow;*/
-}
+    border: 2px solid yellow;
+}*/
 
 
 
