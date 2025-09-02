@@ -155,7 +155,7 @@
             <!-- Texas Classic -->
         <div class="container-prato">
             <picture>
-                <source srcset="imagens/hamburguer2-P-400px.webp" media="(max-width 400px)">
+                <source srcset="imagens/hamburguer2-P-400px.webp" media="(max-width: 400px)">
                 <source srcset="imagens/hamburguer2-M-700px.webp" media="(max-width: 700px)">
                 <img src="imagens/hamburguer2-G-1400px.webp" alt="Texas Classic">
             </picture>
@@ -171,7 +171,7 @@
             <!-- Chicken Ranch -->
         <div class="container-prato">
             <picture>
-                <source srcset="imagens/hamburguer3-P-400px.webp" media="(max-width 400px)">
+                <source srcset="imagens/hamburguer3-P-400px.webp" media="(max-width: 400px)">
                 <source srcset="imagens/hamburguer3-M-700px.webp" media="(max-width: 700px)">
                 <img src="imagens/hamburguer3-G-1400px.webp" alt="Chicken Ranch">
             </picture>
@@ -187,7 +187,7 @@
             <!-- Texas Fried Chicken -->
         <div class="container-prato">
             <picture>
-                <source srcset="imagens/hamburguer4-P-400px.webp" media="(max-width 400px)">
+                <source srcset="imagens/hamburguer4-P-400px.webp" media="(max-width: 400px)">
                 <source srcset="imagens/hamburguer4-M-700px.webp" media="(max-width: 700px)">
                 <img src="imagens/hamburguer4-G-1400px.webp" alt="Texas Fried Chicken">
             </picture>
@@ -217,7 +217,8 @@
             </picture>
                 <h3 class="nome-chef">Chef Richard Hayes</h3>
                     <p class="biografia_chef">
-                        Richard Hayes, conhecido mundialmente como Smokey, é mestre das brasas e da defumação. Com mais de 20 anos de experiência, já comandou churrascos em festivais internacionais, unindo técnicas tradicionais sul-americanas ao estilo texano de fogo lento. Reconhecido por sua habilidade em transformar cortes simples em verdadeiras obras-primas gastronômicas, Hayes é um chef que valoriza a autenticidade do sabor e o respeito pelo fogo, elevando o churrasco a um patamar de alta gastronomia.
+                        Richard Hayes, conhecido mundialmente como Smokey, é mestre das brasas e da defumação. Com mais de 20 anos de experiência, já comandou churrascos em festivais internacionais, unindo técnicas tradicionais sul-americanas ao estilo texano de fogo lento.
+                        Reconhecido por sua habilidade em transformar cortes simples em verdadeiras obras-primas gastronômicas, Hayes é um chef que valoriza a autenticidade do sabor e o respeito pelo fogo, elevando o churrasco a um patamar de alta gastronomia.
                     </p>
         </div>
 
@@ -235,6 +236,32 @@
         </div>
     </article>
 
+    <section id="Reservas" class="sub-titulos-h2"> Faça sua Reserva</section>
+
+    <footer>
+        <ul>
+            <li>
+                <label for="nome">Digite seu nome completo: </label>
+                <input type="text" name="nome" id="nome" required>
+            </li>
+            <li><label for="telefone">Digite seu telefone de contato: </label>
+            <input type="number" name="numero" id="numero" required>
+            </li>
+            <li>
+                <label for="pessoas">Quantas pessoas: </label>
+                <input type="number" name="pessoas" id="pessoas">
+            </li>
+            <li>
+                <label for="data">Escolha a data da reserva: </label>
+                <input type="date" name="data" id="data" required>
+            </li>
+            <li>
+                <label for="horario">Escolha o horário da reserva: </label>
+                <input type="time" name="horario" id="horario">
+            </li>
+        </ul>
+        <button>Reservar</button>
+    </footer>
 
 
 

@@ -3,79 +3,58 @@
 
 /* Zera margens padrão do navegador */
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
-
-
-
-
-
-
-
-
 
 
 /* Edição da cor de fundo do site */
 body {
-    background-image: url(imagens/fundo.webp);
-    /*background-color: #2c1a13;*/
+    background-image: url(imagens/fundo.webp); /* imagem de fundo do site */
 }
-
-
-
-
-
-
-
-
-
 
 
 /* Edição do cabeçalho */
 header {
-    display: flex;
-    max-width: 100%;
-    /*border: 5px solid yellow;*/
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(112, 26, 15);
-    border-bottom: 1px solid rgb(243, 216, 149);
-    /*border-bottom: 2px solid rgba(237, 205, 126, 0.884);*/
+    display: flex; /* usando flexbox para organizar os conteúdos do cabeçalho */
+    max-width: 100%; /* garante que não passa da largura da tela */
+    justify-content: space-between; /* espaço entre o logo a esquerda e redes sociais a direita */
+    align-items: center; /* centraliza verticalmente */
+    background-color: rgba(112, 26, 15); /* cor de fundo do menu */
+    border-bottom: 1px solid rgb(243, 216, 149); /* linha na borda baixa */
 }
+
 
 /* Logotipo do restaurante */
 header img {
-    margin: 20px;
-    width: 110px;
-    height: 95px;
+    margin: 20px; /* espaço em volta da imagem */
+    width: 110px; /* largura da imagem*/
+    height: 95px; /* altura da imagem */
 }
-
-
-
 
 
 /* Menu de Navegação */
 nav {
-    text-align: center;
-    font-size: 25px;
-    /*border: 2px solid yellow;*/
-    width: 54%; /* ocupa toda a largura da tela */
-    box-sizing: border-box;
-    margin: auto;
+    text-align: center; /* centraliza o texto dos links */
+    font-size: 25px; /* tamanho da fonte */
+    width: 54%; /* largura do menu */
+    box-sizing: border-box; /* inclui padding e borda na largura */
+    margin: auto; /* centraliza horizontalmente */
 }
+
 
 /* Edição dos links do Menu de Navegação */
 nav a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: rgb(243, 216, 149);
-    text-decoration: none;
-    padding: 5px 8px;
-    border: 0.1px solid transparent;
-    transition: all 0.3s ease;
-    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif; /* fonte do texto dos links */
+    font-weight: bolder; /* espessura da fonte (negrito) */
+    color: rgb(243, 216, 149); /* cor da fonte */
+    text-decoration: none; /* remove sublinhado */
+    padding: 5px 8px; /* espaçamento interno */
+    border: 0.1px solid transparent; /* borda invisível (para não mexer o layout no hover */
+    transition: all 0.3s ease; /* animação suave ao passar o mouse */
+    display: inline-block; /* permite padding funcionar corretamente */
 }
+
 
 /* Faz um estilo ao passar o mouse no Menu de Navegação */
 nav a:hover {
@@ -85,6 +64,7 @@ nav a:hover {
 }
 
 
+/* Ajuste do espaçamento das imagens dos contatos de redes sociais */
 .redes-sociais {
     display: flex;
     margin-right: 20px;
@@ -92,7 +72,7 @@ nav a:hover {
     gap: 17px;
 }
 
-/* Edição da imagem dos contatos */
+/* Ajuste do tamanho das imagens dos contatos de redes sociais */
 .imagem-redes-sociais {
     width: 25px;
     height: 25px;
@@ -102,25 +82,13 @@ nav a:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Ajuste de onde está o conteúdo principal da página */
 main {
     display: flex;
 }
 
+
+/* Container onde está inserido a imagem e a frase principal */
 .container-banner {
     display: flex; /* ativa flexbox */
     align-items: center; /* alinha ao centro verticalmente */
@@ -130,30 +98,32 @@ main {
     margin-bottom: 70px;
     padding: 40px;
     gap: 2px; /* espaço entre imagem e frase */
-    /*border: 2px solid yellow;*/
 }
 
+
+/* Ajuste do tamanho da imagem do banner */
 .imagem-banner img {
     max-width: 800px; /* controla largura da imagem */
     height: 650px;
-    /*border: 2px solid yellow;*/
 }
 
+
+/* Ajuste da caixa da frase principal */
 .frase-banner {
     max-width: 600px;
     color: rgb(243, 216, 149);
-    border: 2px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* sombra escura */
     flex: 1;
     margin-left: 10px;
     margin-right: 90px;
 }
 
+
+/* Ajuste da frase principal */
 .frase-banner h1 {
     font-family: "Dancing Script";
     text-align: center;
     font-size: 7rem;
-    /*border: 2px solid yellow;*/
 }
 
 
@@ -164,7 +134,8 @@ main {
     font-family: "Dancing Script";
     color: rgb(243, 216, 149);
     background-color: rgba(112, 26, 15);
-    border: 1px, 0 solid rgba(237, 205, 126, 0.829);
+    border-top: 1px solid rgba(237, 205, 126, 0.829);
+    border-bottom: 1px solid rgba(237, 205, 126, 0.829);
     /*border-radius: 150px 0 150px 0;*/
     justify-content: center; /* centraliza o texto na horizontal */
     text-align: center; /* se o texto quebrar em duas linhas, continua centralizado */
@@ -180,7 +151,6 @@ main {
 article {
     margin: 10px;
     margin-top: 50px;
-    /*border: 2px solid yellow;*/
 }
 
 
