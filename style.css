@@ -127,6 +127,7 @@ main {
     justify-content: space-between; /* espaço entre imagem e texto */
     max-width: 1400px;
     margin: 0 auto;
+    margin-bottom: 70px;
     padding: 40px;
     gap: 2px; /* espaço entre imagem e frase */
     /*border: 2px solid yellow;*/
@@ -157,28 +158,28 @@ main {
 
 
 
-/* Ajuste dos títulos h2 - linha de churrascos, de hamburguer, chefs e etc */
+/* Ajuste da caixa dos títulos h2 - linha de churrascos, de hamburguer, chefs e etc */
 .sub-titulos-h2 {
     display: flex;
     font-family: "Dancing Script";
     color: rgb(243, 216, 149);
     background-color: rgba(112, 26, 15);
     border: 1px solid rgba(237, 205, 126, 0.829);
-    border-radius: 110px 0 150px 0;
-    margin: 10px;
-    margin-top: 70px;
-    width: 700px;
-    text-align: center;
+    border-radius: 150px 0 150px 0;
+    justify-content: center; /* centraliza o texto na horizontal */
+    text-align: center; /* se o texto quebrar em duas linhas, continua centralizado */
+    width: 40%;
+    margin: auto;
     font-size: 2.5rem;
     font-weight: bolder;
-    padding: 15px;
+    padding: 15px 70px;
 }
 
 
 article {
-    display: flex;
     margin: 10px;
-    /*border: 2px solid yellow;*/
+    margin-top: 50px;
+    border: 2px solid yellow;
 }
 
 
@@ -186,15 +187,13 @@ article {
 /* Container de cada prato */
 .container-prato {
     display: flex; /* ativa o flexbox */
-    flex-wrap: wrap;
-    /*flex-wrap: wrap; permite quebrar em várias linhas */
-    justify-content: center; /* centraliza os itens na horizontal */
-    gap: 20px; /* espaço entre os cards */
-    margin: 20px auto;
-    max-width: 1200px;
-    padding: 15px;
-    align-items: center; /* centraliza verticalmente o texto e nome do prato com a foto */
-    /*border: 2px solid yellow;*/
+    flex-direction: row;
+    gap: 60px; /* espaço entre o a foto e a descrição */ 
+    margin: 10px auto;
+    width: 90%;
+    padding: 10px;
+    align-items: center; /*centraliza verticalmente o texto e nome do prato com a foto */
+    border: 2px solid yellow;
 }
 
 /* Imagem dos pratos do cardápio */
@@ -220,6 +219,7 @@ article {
     font-size: 30px;
     color: rgba(237, 205, 126, 0.829);
     background-color: #2c1a1383;
+    border-radius: 0 0 10px 10px;
     padding: 4px;
 }
 
