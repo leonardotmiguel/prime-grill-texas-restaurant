@@ -186,15 +186,15 @@ article {
 /* Container de cada prato */
 .container-prato {
     display: flex; /* ativa o flexbox */
-    flex-wrap: wrap; /* permite quebrar em várias linhas */
+    flex-wrap: wrap;
+    /*flex-wrap: wrap; permite quebrar em várias linhas */
     justify-content: center; /* centraliza os itens na horizontal */
     gap: 20px; /* espaço entre os cards */
     margin: 20px auto;
     max-width: 1200px;
     padding: 15px;
     align-items: center; /* centraliza verticalmente o texto e nome do prato com a foto */
-    gap: 10px; /* espaço entre a foto e o texto */
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
 }
 
 /* Imagem dos pratos do cardápio */
