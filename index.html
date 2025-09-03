@@ -236,31 +236,39 @@
         </div>
     </article>
 
-    <section id="Reservas" class="sub-titulos-h2"> Faça sua Reserva</section>
+        <div id="Reservas" class="sub-titulos-h2">
+            <h2>Faça sua reserva</h2>
+        </div>
 
-    <footer>
-        <ul>
-            <li>
+    <footer class="rodape">
+
+        <form action="#" method="post">
+            <div class="frase-e-campo-formulario">
                 <label for="nome">Digite seu nome completo: </label>
-                <input type="text" name="nome" id="nome" required>
-            </li>
-            <li><label for="telefone">Digite seu telefone de contato: </label>
-            <input type="number" name="numero" id="numero" required>
-            </li>
-            <li>
-                <label for="pessoas">Quantas pessoas: </label>
-                <input type="number" name="pessoas" id="pessoas">
-            </li>
-            <li>
+                <input class="campo-digito-reservas" type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+            </div>
+            <div class="frase-e-campo-formulario">
+                <label for="telefone">Digite seu telefone de contato: </label>
+                <input class="campo-digito-reservas" type="tel" name="telefone" id="telefone" placeholder="Digite seu número" required>
+            </div>
+            <div class="frase-e-campo-formulario">
+                <label for="pessoas">Quantidade de pessoas: </label>
+                <input class="campo-digito-reservas" type="number" name="pessoas" id="pessoas">
+            </div>
+            <div class="frase-e-campo-formulario">
                 <label for="data">Escolha a data da reserva: </label>
-                <input type="date" name="data" id="data" required>
-            </li>
-            <li>
+                <input class="campo-digito-reservas" type="date" name="data" id="data" required>
+            </div>
+            <div class="frase-e-campo-formulario">
                 <label for="horario">Escolha o horário da reserva: </label>
-                <input type="time" name="horario" id="horario">
-            </li>
-        </ul>
-        <button>Reservar</button>
+                <input class="campo-digito-reservas" type="time" name="horario" id="horario">
+            </div>
+
+            <button class="botao-reserva">Reservar</button>
+        </form>
+
+
+
     </footer>
 
 

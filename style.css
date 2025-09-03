@@ -36,7 +36,7 @@ header img {
 /* Menu de Navegação */
 nav {
     text-align: center; /* centraliza o texto dos links */
-    font-size: 25px; /* tamanho da fonte */
+    font-size: 18px; /* tamanho da fonte */
     width: 54%; /* largura do menu */
     box-sizing: border-box; /* inclui padding e borda na largura */
     margin: auto; /* centraliza horizontalmente */
@@ -285,24 +285,44 @@ html {
 
 
 
+.rodape {
+    display: flex;
+    align-items: center;
+    color: rgb(237, 205, 126);
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 30px;
+}
 
+.frase-e-campo-formulario {
+    background-color: #2c1a138a;
+    border-radius: 10px;
+    padding: 6px;
+    display: flex;
+    align-items: center; /* Centraliza o label e o input */
+    margin-bottom: 10px;
+}
 
-
-/* Nome dos campos para reserva */
-/*.formulario {
+.campo-digito-reservas {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    font-weight: bolder;
-    color: rgba(237, 205, 126, 0.829);
-    margin-top: 25px;
-}*/
+    margin-left: 8px;
+    width: 250px;
+    background-color: rgb(230, 205, 172);
+    padding: 4px;
+    border-radius: 5px;
+}
 
-/* Tamanho do campo onde será digitado as informações para reserva */
-/*.campoDigito {
-    min-width: 100px;
-    max-width:200px;
-}*/
+.botao-reserva {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    width: 150px;
+    color: rgb(237, 205, 126);
+    border: 3px solid rgba(237, 205, 126, 0.829);
+    background-color: rgba(112, 26, 15);
+    border-radius: 20px;
+}
 
 /* Botão para realizar a reserva 
 .botao {
@@ -314,30 +334,3 @@ html {
     margin-right: 650px;
     margin-top: 10px;
 }*/
-
-
-
-
-
-
-
-
-
-
-
-
-.cor-texto-contatos {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: rgba(237, 205, 126, 0.829);
-    margin: 6px;
-}
-
-
-
-.teste {
-    border-radius: 50%;
-    max-width: 300px;
-    border: 3px solid rgba(237, 205, 126, 0.829);
-}
